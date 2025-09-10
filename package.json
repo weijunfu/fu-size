@@ -1,0 +1,45 @@
+{
+  "name": "fu-size",
+  "version": "0.0.1",
+  "description": "一个纯CSS实现的常用文本大小的工具库",
+  "style": "./dist/index.css",
+  "unpkg": "./dist/index.min.css",
+  "jsdelivr": "./dist/index.min.css",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "development": "./dist/index.css",
+      "default": "./dist/index.min.css"
+    },
+    "./style": "./dist/index.css",
+    "./style.min": "./dist/index.min.css",
+    "./style.css": "./dist/index.css",
+    "./style.min.css": "./dist/index.min.css"
+  },
+  "scripts": {
+    "build:css": "node scripts/build-css.js",
+    "build": "npm run build:css"
+  },
+  "keywords": [
+    "css",
+    "fu",
+    "library",
+    "utility",
+    "ui"
+  ],
+  "author": "ijunfu <ijunfu@163.com> (https://weijunfu.github.io/)",
+  "license": "MIT",
+  "homepage": "https://github.com/weijunfu/fu-size#readme",
+  "contributors": [
+    "ijunfu <ijunfu@163.com>"
+  ],
+  "devDependencies": {
+    "sass": "^1.92.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weijunfu/fu-size.git"
+  }
+}

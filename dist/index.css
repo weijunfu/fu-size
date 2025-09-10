@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*!
+ * fu-size v0.0.1
+ * Built: 2025-09-10 08:18:28
+ * © 2025 ijunfu <ijunfu@163.com> (https://weijunfu.github.io/). MIT License.
+ * https://github.com/weijunfu/fu-size.git
+ */
+:root {
+  --basic-size: 16px;
+  --text-size: clamp(0.875rem, 3.5vw, 1rem);
+  --title-size: clamp(1.25rem, 6vw, 2.5rem);
+  --subtitle-size: clamp(1rem, 5vw, 2rem);
+  --link-size: clamp(0.875rem, 3.5vw, 1rem);
+  --button-size: clamp(0.875rem, 4vw, 1rem);
+  --card-title-size: clamp(0.875rem, 4vw, 1.25rem);
+  --auxiliary-text-size: clamp(0.75rem, 2.5vw, 0.875rem);
+}
+
+.basic-size {
+  font-size: var(--basic-size);
+}
+
+.text-size {
+  font-size: var(--text-size);
+}
+
+.title-size {
+  font-size: var(--title-size);
+}
+
+.subtitle-size {
+  font-size: var(--subtitle-size);
+}
+
+.link-size {
+  font-size: var(--link-size);
+}
+
+.button-size {
+  font-size: var(--button-size);
+}
+
+.card-title-size {
+  font-size: var(--card-title-size);
+}
+
+.auxiliary-text-size {
+  font-size: var(--auxiliary-text-size);
+}
+
+/*# sourceMappingURL=index.css.map */

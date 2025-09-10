@@ -1,0 +1,26 @@
+$map: (
+  'basic': 16px,                          // 基准文本大小
+  'text': clamp(0.875rem, 3.5vw, 1rem),   // 正文大小
+  'title': clamp(1.25rem, 6vw, 2.5rem),   // 标题大小
+  'subtitle': clamp(1rem, 5vw, 2rem),     // 副标题大小
+  'link': clamp(0.875rem, 3.5vw, 1rem),   // 链接文本大小
+  'button': clamp(0.875rem, 4vw, 1rem),   // 按钮文本大小
+  'card-title': clamp(0.875rem, 4vw, 1.25rem),  // 卡片标题大小
+  'auxiliary-text': clamp(0.75rem, 2.5vw, 0.875rem)  // 辅助文本、页脚等文本大小
+);
+
+:root {
+  @each $key, $value in $map {
+    --#{$key}-size: #{$value};
+  }
+}
+
+html, body {
+  font-size: 16px;
+}
+
+@each $key, $value in $map {
+  .#{$key}-size {
+    font-size: var(--#{$key}-size);
+  }
+}
