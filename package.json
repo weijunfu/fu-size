@@ -41,5 +41,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/weijunfu/fu-size.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
