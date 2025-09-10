@@ -1,5 +1,5 @@
 {
-  "name": "fu-size",
+  "name": "@fu-css/fu-size",
   "version": "0.0.1",
   "description": "一个纯CSS实现的常用文本大小的工具库",
   "style": "./dist/index.css",
