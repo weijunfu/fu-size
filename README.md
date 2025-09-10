@@ -3,6 +3,9 @@
 > 一个纯CSS实现的常用文本大小的工具库
 > 基准文字大小：16px
 
+## 示例
+
+[fu-size | https://weijunfu.github.io/tools/fu-size](https://weijunfu.github.io/tools/fu-size)
 
 ## 内容
 
